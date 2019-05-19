@@ -1,28 +1,29 @@
 {
-	"name": "fcc-mongo-mongoose-challenges",
-	"version": "0.0.1",
-	"description": "A boilerplate project",
+	"name": "fcc-exercise-tracker",
+	"version": "0.1.0",
+	"description": "A REST API project, part of Free Code Camp's curriculum",
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js"
 	},
 	"dependencies": {
-		"express": "^4.14.4",
+		"express": "^4.14.0",
+		"mongoose": "^5.0.0",
+		"mongodb": "^3.0.0",
 		"body-parser": "^1.15.2",
-    "mongodb": "^3.0.0",
-    "mongoose": "^5.0.0"
+		"cors": "^2.8.1",
+		"shortid": "^2.2.6"
 	},
 	"engines": {
-		"node": "4.4.5"
+		"node": "6.9.1"
 	},
 	"repository": {
-		"type": "git",
-		"url": "https://hyperdev.com/#!/project/welcome-project"
+		"url": "https://gomix.com/#!/project/welcome-project"
 	},
+	"license": "MIT",
 	"keywords": [
 		"node",
-		"hyperdev",
+		"gomix",
 		"express"
-	],
-	"license": "MIT"
+	]
 }
